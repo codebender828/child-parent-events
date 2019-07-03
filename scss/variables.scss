@@ -1,0 +1,124 @@
+:root {
+  /* Custom Colors */
+  --akkadu-blue: #0062ff;
+  --akkadu-blue-sky: #0095ff;
+  --akkadu-light-gray: #bababa;
+  --akkadu-dark-gray: #363636;
+  --akkadu-dark: #262626;
+  --akkadu-blue-lt: #00f9ff;
+  --akkadu-blue-drk: #00458c;
+  --akkadu-cyan: #0ff;
+  --akkadu-turtle-lt: #bde0e5;
+  --akkadu-turtle: #237480;
+  --akkadu-cloud: #deecfb;
+  --gradient-one: #5316fb;
+  --gradient-two: #21d4fd;
+  --font-muted: #adadad;
+  --bg-color: #f2f2f2;
+  --primary-button: #007bff;
+  --secondary-button: #fff;
+  --akkadu-skyblue: #a5fcfe;
+  --akkadu-lightblue: #00adff;
+  --akkadu-deep-blue: #0000c4;
+  --akkadu-navy: #000059;
+  --selected-grey: #63697a;
+
+  /* Standard Colors */
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+
+  /* --teal: #20c997; */
+  --teal: #21f4b6;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --light-gray: #cfcfcf;
+  --dark: #343a40;
+  --disabled: #a9a9a9;
+  --connected: #00b606;
+  --green-bright: #14be55;
+  --disconnected: #dc3545;
+  --black: #000;
+  --soft-blue: #86ffff;
+  --soft-blue-lt: #f6fcfd;
+  --mellow-yellow: #ffd126;
+  --light-yellow: #fef46a;
+  --deep-gray: #363636;
+  --fair-gray: #505050;
+  --pdf-dark: #1f222d;
+  /* Modals */
+  --modal-background-color: #222222ab;
+
+  /* Gradients */
+  --akkadu-std-gradient: linear-gradient(330deg, var(--akkadu-blue-lt), var(--akkadu-blue));
+  --akkadu-bio-gradient: linear-gradient(100deg, var(--akkadu-deep-blue), var(--akkadu-navy));
+  --akkadu-dark-gradient: linear-gradient(100deg, rgba(0, 0, 0, 0.6), var(--akkadu-navy));
+  --akkadu-dark-card-gradient: linear-gradient(100deg, #3d4459, #b1b4be);
+
+  /* Gradients */
+  --akkadu-std-gradient: linear-gradient(330deg, var(--akkadu-blue-lt), var(--akkadu-blue));
+  --akkadu-std-dark-gradient: linear-gradient(330deg, var(--akkadu-navy), var(--akkadu-blue));
+  --akkadu-bio-gradient: linear-gradient(100deg, var(--akkadu-deep-blue), var(--akkadu-navy));
+  --akkadu-dark-gradient: linear-gradient(100deg, rgba(0, 0, 0, 0.6), var(--akkadu-navy));
+  --akkadu-gray-gradient-dark: linear-gradient(150deg, var(--deep-gray), var(--fair-gray));
+  --akkadu-yellow-gradient: linear-gradient(100deg, var(--yellow), var(--orange));
+  --akkadu-yellow-gradient-lt: linear-gradient(100deg, var(--mellow-yellow), var(--light-yellow));
+  --akkadu-soft-blue-gradient: linear-gradient(100deg, var(--soft-blue), var(--soft-blue-lt));
+
+  /* Breakpoints */
+  --breakpoint-mobile-portrait: 576px;
+  --breakpoint-mobile-landscape: 768px;
+  --breakpoint-tablet: 992px;
+  --breakpoint-desktop: 1200px;
+
+  /* Font Families */
+  --rubik: 'Rubik', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+  --font-family-sans-serif:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --font-family-monospace:
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Liberation Mono',
+    'Courier New',
+    monospace;
+
+  /* Shadows */
+  --shadow-small:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-medium:
+    0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+  --shadow-large:
+    0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  --button-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  --button-shadow-lt: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}

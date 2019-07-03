@@ -1,4 +1,4 @@
-# child-parent-events
+# 📅 child-parent-events
 
 > Passing events from child to parent to show modal
 
