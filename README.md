@@ -2,6 +2,9 @@
 
 > Passing events from child to parent to show modal
 
+### 🚀Demo Link
+https://keen-jones-131a0a.netlify.com/
+
 ## Build Setup
 
 ``` bash
